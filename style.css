@@ -768,9 +768,7 @@ h4 {
         display: none;
     }
     .cloud{
-        margin-top: 90px;
-        width:400px;
-        bottom:0%;
+        display:none;
     }
     .blob{
         width:400px;
