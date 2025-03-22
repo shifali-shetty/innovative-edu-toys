@@ -95,13 +95,13 @@ body {
 .main-heading{
     position: absolute;
     top:30%;
-    left:25%;
+    left:20%;
     z-index: 1;
 }
 .main-headings{
     position: absolute;
     top:100%;
-    left:10%;
+    left:5%;
     z-index: 1;
 }
 
