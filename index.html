@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Toy Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Your Logo</div>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="#about-section">About Us</a>
+            <a href="#services-section">Services</a>
+        </nav>
+        <a href="#contact-section" class="contact-btn">Contact Us</a>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </header>
+
+    <section id="hero">
+        <img src="moon.png" alt="earth" class="moon">
+        <img src="rocket.png" alt="earth" class="rocket">
+        <img src="cloud.png" alt="cloud" class="cloud">
+        <img src="cloud.png" alt="cloud" class="cloud2">
+        <img src="blob.png" alt="blob" class="blob">
+        <img src="star.png" alt="blob" class="stars">
+        <div class="hero-content">
+            <h1 id="white-h1" class="main-heading">Inspiring Kids Through <br><span id="yellow-h1" class="main-headings">Interactive Toys</span></h1>
+
+            <div class="hero-buttons">
+                <a href="#contact-section" class="btn contacts-btn">Contact Us</a>
+                <a href="#about-section" class="btn learn-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Features Section -->
+<div class="features-abt">
+<section id="features-section">
+    <div class="feature">
+        <h1 id="blue-h1">Explore Our <span id="yellow-h1">Features</span></h1>
+    <div class="custom-divider">
+        <span class="line"></span>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <span class="line"></span>
+    </div>
+    
+<div class="features-container">
+        <!-- Box 1 -->
+        <div class="feature-box yellow-box">
+            <img src="magic-stick.svg" alt="robot" class="icon-placeholder">
+            <h4>Interactive Stories</h4>
+            <p>Touch the book, and characters come to life, making learning fun and engaging for kids.</p>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="feature-box blue-box">
+            <img src="open-book.svg" alt="robot" class="icon-placeholder">
+            <h4>Smart Learning</h4>
+            <p>Boost language, creativity, and problem-solving skills — all through immersive, playful storytelling.</p>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="feature-box yellow-box">
+            <img src="robot.svg" alt="robot" class="icon-placeholder">
+            <h4>Immersive Play</h4>
+            <p>Each page unlocks sounds, actions, and surprises — turning every story into an unforgettable adventure.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- About Section -->
+<section id="about-section">
+    <div class="about-container">
+        <!-- Left Column: Image -->
+        <div class="about-image">
+            <img src="medium-shot-smiley-kids-learning.jpg" alt="Kids Learning">
+        </div>
+
+        <!-- Right Column: Content -->
+        <div class="about-content">
+            
+            <h1 id="blue-h1">The Minds <span id="yellow-h1">Behind The Magic</span></h1>
+            <div class="about-divider">
+                <span class="line"></span>
+                <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <span class="line"></span>
+            </div>
+            <p>
+                At Innovative Edu Toys, we believe learning should be an adventure. Our mission is to transform traditional storytelling into an immersive, interactive experience — where children don’t just listen to stories, they become part of them. With our IoT-powered toys, we’re shaping a future where imagination leads the way, and learning happens through play.
+            </p>
+        </div>
+    </div>
+   
+</section>
+
+</div>
+<!-- Services Section -->
+    <section id="services-section">
+        <div class="cloud3">
+          <img src="blue-cloud.png" alt="cloud">
+         </div>
+        <div class="cloud4"> 
+           <img src="blue-cloud.png" alt="cloud">
+         </div>  
+        <h1 id="white-h1">What We<span id="yellow-h1"> Offer</span></h1>
+
+        <div class="custom-divider">
+            <span class="line"></span>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <span class="line"></span>
+        </div>
+
+        <div class="services-container">
+            <!-- First Column (Icons Left, Text Right) -->
+            <div class="service-column">
+                <div class="service-box">
+                    <img src="open-book.svg" alt="Icon 1" class="icon-bg lb-bg">
+                    <div class="service-content">
+                        <h4 class="yellow-text"> Gamified Books</h4>
+                        <p>Kids touch the pages to hear sounds, see actions, and discover fun surprises.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <img src="robot.svg" alt="Icon 2" class="icon-bg lb-bg">
+                    <div class="service-content">
+                        <h4 class="yellow-text">Interactive Storytelling</h4>
+                        <p>Toys bring stories to life with talking, moving, and reacting characters.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <img src="artificial-intelligence.svg" alt="Icon 3" class="icon-bg lb-bg">
+                    <div class="service-content">
+                        <h4 class="yellow-text"> Imaginative Play</h4>
+                        <p>Kids explore stories by solving puzzles and making their own adventures.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Column (Image Placeholder) -->
+            <div class="service-image">
+                <img src="interactive robo.png" alt="Interactive Toy">
+            </div>
+
+            <!-- Third Column (Icons Right, Text Left) -->
+            <div class="service-column reverse-column">
+                <div class="service-box">
+                    <div class="service-content right-content">
+                        <h4 class="yellow-text">Screen-Free fun</h4>
+                        <p>Interactive, hands-on play keeps kids moving, thinking, and having fun without screens.</p>
+                    </div>
+                    <img src="happy.svg" alt="Icon 4" class="icon-bg lb-bg">
+                </div>
+
+                <div class="service-box">
+                    <div class="service-content right-content">
+                        <h4 class="yellow-text">Boosts Learning Naturally</h4>
+                        <p> Kids learn new words, listen better, and solve problems while having fun.</p>
+                    </div>
+                    <img src="rocket (1).svg" alt="Icon 5" class="icon-bg lb-bg">
+                </div>
+
+                <div class="service-box">
+                    <div class="service-content right-content">
+                        <h4 class="yellow-text">Safe and Durable</h4>
+                        <p>Made with kid-safe, durable materials for nonstop fun and exploration.</p>
+                    </div>
+                    <img src="shield.svg" alt="Icon 6" class="icon-bg lb-bg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<section class="team">
+    <h1 id="blue-h1">Our <span id="yellow-h1">Team</span></h1>
+    <div class="custom-divider">
+        <span class="line"></span>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <span class="line"></span>
+    </div>
+    <div class="teams">
+        <div class="col">
+            <img src="Dr. A. P. Achar.jpeg" alt="">
+            <div class="boxes orange-bg">
+               <h4>Dr. Ananthapadmanabha Achar</h4>
+               <p>designation</p>
+               
+            </div>
+        </div>
+        <div class="col">
+            <img src="" alt="">
+            <div class="boxes yellow-bg">
+               <h4>Kavayashree</h4>
+               <p>designation</p>
+               
+            </div>
+        </div>
+        <div class="col">
+            <img src="" alt="">
+            <div class="boxes green-bg">
+               <h4>Tilak</h4>
+               <p>designation</p>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CTA Section -->
+<section id="cta-section">
+    <div class="cta-content">
+        <h1 id="white-h1">Choose Us for Your Child’s <span id="yellow-h1">Better Future</span></h1>
+        <p>Empowering young minds with interactive learning and unforgettable stories — shaping a brighter tomorrow.</p>
+        <button class="btn contacts-btn">Contact Us</button>
+    </div>
+</section>
+
+
+<section id="contact-section">
+    <img src="star.png" alt="star" class="star">
+    <div class="contact-container">
+        <!-- Left Column: Content -->
+        <div class="contact-content">
+            
+            <h1 id="blue-h1">Contact Us For <span id="yellow-h1">Further Information</span></h1>
+            <div class="about-divider">
+                <span class="line"></span>
+                <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <span class="line"></span>
+            </div>
+            <p>Reach out to us for questions, details, or collaboration opportunities — we’re here to help!</p>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="name-email">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <textarea id="message" placeholder="Message" rows="7" required></textarea>
+                <button type="submit" class="btn contacts-btn">Contact Us</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer id="footer-section">
+    <div class="footer-container">
+        <!-- 1st Column: Logo & Description -->
+        <div class="footer-columns">
+            <div class="logos">Your Logo</div>
+            <p>Your partner in shaping brighter, smarter futures for kids.</p>
+        </div>
+      <div class="columns">
+        <!-- 2nd Column: Quick Links -->
+        <div class="footer-column">
+            <h1>Quick Links</h1>
+            <a href="index.html">Home</a>
+            <a href="#about-section">About Us</a>
+            <a href="#services-section">Services</a>
+        </div>
+
+        <!-- 3rd Column: Support -->
+        <div class="footer-column">
+            <h1>Support</h1>
+            <a href="#">FAQ</a>
+            <a href="#contact-section">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <!-- 4th Column: Address -->
+        <div class="footer-column">
+            <h1>Contact</h1>
+            <div class="footer-address">
+                <i class="fas fa-map-pin"></i>
+                <p>NMAMIT</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Copyright Text -->
+    <div class="footer-copyright">
+        <p>&copy; 2024 Innovative Edu Toys. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="#about-section">About Us</a>
+        <a href="#services-section">Services</a>
+        <a href="#contact-setion">Contact Us</a>
+    </div>
+</body>
+</html>
+
