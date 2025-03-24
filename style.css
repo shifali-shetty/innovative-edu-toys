@@ -791,12 +791,16 @@ h4 {
     #white-h1 ,#yellow-h1, #blue-h1{
         font-size: 42px;
     }
-   
-    
-    .btn {
-        font-size: 16px;
-        padding: 10px 16px;
-    }
+   .btn {
+    padding: 15px 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 10px;
+}
     .features-container {
         flex-direction: column;
         gap: 15px;
