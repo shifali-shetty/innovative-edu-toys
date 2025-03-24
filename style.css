@@ -731,19 +731,19 @@ h4 {
         position: absolute;
         top:70%;
         left:17%;
-        padding-top: 30px;
+        padding-top: 15px;
         display: block;
         margin-bottom: 40px;
     }
     .main-heading{
         position: absolute;
         top:30%;
-        left:10%;
+        left:5%;
     }
     .main-headings{
         position: absolute;
         top:100%;
-        left:10%;
+        left:5%;
     }
     .logo {
         text-align: left;
