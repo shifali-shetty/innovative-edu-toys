@@ -730,7 +730,7 @@ h4 {
     .hero-buttons{
         position: absolute;
         top:70%;
-        left:17%;
+        left:9%;
         padding-top: 15px;
         display: block;
         margin-bottom: 40px;
@@ -792,7 +792,7 @@ h4 {
         font-size: 42px;
     }
    .btn {
-    padding: 15px 45px;
+    padding: 15px 25px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
