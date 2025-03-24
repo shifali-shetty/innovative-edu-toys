@@ -753,7 +753,7 @@ h4 {
         display: none;
     }
     #hero{
-        height:80vh;
+        height:86vh;
     }
     .hero-content {
         padding:15px 10px;
@@ -771,7 +771,7 @@ h4 {
         display: none;
     }
     .cloud{
-        margin-top: 80px;
+        margin-top: 70px;
         width:403px;
         bottom:0%;
     }
