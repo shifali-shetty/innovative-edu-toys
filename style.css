@@ -752,6 +752,9 @@ h4 {
     .contact-btn {
         display: none;
     }
+    #hero{
+        height:80vh;
+    }
     .hero-content {
         padding:15px 10px;
     }
@@ -769,7 +772,7 @@ h4 {
     }
     .cloud{
         margin-top: 80px;
-        width:400px;
+        width:403px;
         bottom:0%;
     }
     .blob{
