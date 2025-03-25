@@ -68,15 +68,13 @@ body {
     position: absolute;
     top:-12%;
     left:-9%;
-    width:790px;
-    
+    width:790px; 
 }
 .cloud4{
     position: absolute;
     top:-12%;
     right: -9%;
     width:790px;
-    
 }
 .blob{
     position: absolute;
