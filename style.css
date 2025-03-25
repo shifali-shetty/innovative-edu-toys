@@ -146,7 +146,7 @@ a{
 
 .contact-btn:hover {
     background-color: var(--blue);
-    box-shadow: 0 3px 0px rgb(26, 30, 75);
+    box-shadow: 0 6px 0px rgb(16, 18, 46);
 }
 
 .menu-icon {
@@ -221,13 +221,13 @@ a{
 }
 /* Learn More Button */
 .contacts-btn {
-    background-color: var(--yellow);
+    background-color: var(--blue);
     color: var(--white);
-    box-shadow: 0 3px 0px rgba(225,213,56, 1);
+    box-shadow: 0 6px 0px rgb(16, 18, 46);
 }
 .contacts-btn:hover {
     background-color: var(--blue);
-    box-shadow: 0 3px 0px rgb(26, 30, 75);
+    box-shadow: 0 6px 0px rgb(16, 18, 46);
 }
 .learn-btn {
     background-color: var(--white);
