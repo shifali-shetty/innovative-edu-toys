@@ -246,7 +246,7 @@ a{
 }
 /* Features Section Styling */
 #features-section {
-    padding: 110px 20px;
+    padding: 80px 20px;
     text-align: center;
     background-image: url(bac-2.png);
     background-position: top left;
@@ -390,7 +390,7 @@ h4 {
 /* Services Section Styling */
 #services-section {
     position: relative;
-    padding: 160px 0px;
+    padding: 100px 0px;
     text-align: center;
     background-color: var(--blue);
     
