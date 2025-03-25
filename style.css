@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 15px 150px 0px 90px;
+    padding: 9px 150px 0px 90px;
     background-color: var(--white);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -105,13 +105,10 @@ body {
     z-index: 1;
 }
 .logo img{
-    width:290px;
-}
-.nav-menu{
-    margin-bottom:10px;
+    width:300px;
 }
 .nav-menu a {
-    margin: 0 35px;
+    margin: 0 45px;
     text-decoration: none;
     color: var(--black3);
     transition: color 0.3s ease;
@@ -144,6 +141,7 @@ a{
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     font-size: 18px;
     font-weight: 600;
+    margin-bottom:40px;
 }
 
 .contact-btn:hover {
