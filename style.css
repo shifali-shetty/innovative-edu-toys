@@ -107,6 +107,8 @@ body {
 .logo img{
     width:300px;
 }
+.nav-menu{
+    margin-bottom:45px;
 .nav-menu a {
     margin: 0 45px;
     text-decoration: none;
