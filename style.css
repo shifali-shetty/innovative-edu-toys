@@ -29,7 +29,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 15px 150px 0px 90px;
     background-color: var(--white);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -107,7 +107,9 @@ body {
 .logo img{
     width:210px;
 }
-
+.nav-menu{
+    margin-bottom:10px;
+}
 .nav-menu a {
     margin: 0 35px;
     text-decoration: none;
@@ -231,7 +233,7 @@ a{
 }
 .learn-btn {
     background-color: var(--white);
-    color: var(--yellow);
+    color: var(--blue);
     box-shadow: 0 3px 0px rgb(197, 197, 197);
 }
 
