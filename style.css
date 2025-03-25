@@ -104,12 +104,8 @@ body {
     left:5%;
     z-index: 1;
 }
-
-
-.logo {
-    font-size: 29px;
-    font-weight: bold;
-    color: var(--purple);
+.logo img{
+    width:100px;
 }
 
 .nav-menu a {
