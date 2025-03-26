@@ -610,7 +610,7 @@ h4 {
 #footer-section {
     background: var(--light-blue);
     color: var(--black3);
-    padding: 40px 60px;
+    padding: 40px 100px 40px 60px;
     text-align: center;
 }
 .star{
